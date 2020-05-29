@@ -1,6 +1,10 @@
-import React from "react";
+import * as React from "react";
 
-const SideLayoutMenu = (props) => {
+interface ISideLayoutMenuProps {
+  customClass?: string
+}
+
+const SideLayoutMenu = (props: ISideLayoutMenuProps) => {
   const navClassName = props.customClass || 'px2';
   return (
     <nav className={navClassName}>
