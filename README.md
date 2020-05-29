@@ -1,4 +1,4 @@
-# Resume
+# TailWind
 
 # How to Run
 **Clone the repo**
