@@ -2,7 +2,9 @@
   "name": "resumegenerator",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
+    "@tailwindcss/ui": "^0.3.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -25,6 +27,8 @@
     "@babel/core": "^7.10.1",
     "@babel/preset-env": "^7.10.1",
     "@babel/preset-react": "^7.10.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
@@ -38,11 +42,20 @@
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-cli": "^7.1.1",
     "postcss-loader": "^3.0.0",
+    "source-map-loader": "^1.0.0",
     "style-loader": "^1.2.1",
     "svg-inline-loader": "^0.8.2",
     "tailwindcss": "^1.4.6",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "printWidth": 120,
+    "singleQuote": true
   }
 }
